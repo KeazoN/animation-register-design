@@ -1,0 +1,151 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #222;
+}
+
+.box{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: .40s linear;
+    background: #333;
+    position: relative;
+    top: 2%;
+    border-radius: 15px;
+    margin: auto;
+    width: 500px;
+    height: 730px;
+}
+
+.box:hover{
+	box-shadow: 2px 2px #444;
+}
+
+.head-text {
+	position: relative;
+	top: 50px;
+	transition: .20s linear;
+}
+
+.head-text h1{
+	transition: .20s linear;
+	color: white;
+	font-family: 'Hind Vadodara', sans-serif;
+	text-shadow: 2px 2px #111;
+	cursor: default;
+}
+
+.inputs {
+	transition: .2s linear;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	top: 10%;
+}
+
+input[type="username"],
+input[type="email"],
+input[type="password"],
+input[type="button"] {
+	transition: .2s linear;
+	display: block;
+	align-items: center;
+	margin: auto;
+	margin-top: 40px;
+}
+
+input[type="username"],
+input[type="email"],
+input[type="password"] {
+	background: none;
+	border: 1px solid gray;
+	color: white;
+	padding: 18px 20px;
+	width: 340px;
+	outline: none;
+	font-size: 20px;
+	font-family: 'Hind Vadodara', sans-serif;
+	border-radius: 40px;
+}
+
+input[type="username"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+	border: 1px solid white;
+	width: 380px;
+}
+
+input[type="button"] {
+	padding: 15px 28px;
+	width: 170px;
+	border-radius: 50px;
+	border: 1px solid green;
+	background: none;
+	font-family: 'Hind Vadodara', sans-serif;
+	color: white;
+	font-size: 16px;
+	text-shadow: 2px 1px black;
+	cursor: pointer;
+	outline: none;
+}
+
+input[type="button"]:hover {
+	background-color: green;
+}
+
+input[type="button"]:active{
+	background-color: darkgreen;
+}
+
+.sm {
+	transition: .2s linear;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	top: 29%;
+}
+
+.google,
+.github{
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+	font-family: 'Hind Vadodara', sans-serif;
+	margin-left: 5px;
+	background: none;
+	padding: 27px 27px;
+	border: 2px solid gray;
+	border-radius: 20px;
+	transition: .20s linear;
+}
+.google:hover,
+.github:hover{
+	transition: .2s linear;
+	background-color: gray;
+}
+
+
+
+@media only screen and (max-width: 580px;) {
+	.box{
+	    text-align: center;
+	    justify-content: center;
+	    align-items: center;
+	    transition: .40s linear;
+	    background: #333;
+	    position: relative;
+	    top: 50%;
+	    border-radius: 15px;
+	    margin: auto;
+	    width: 500px;
+	    height: 1730px;
+}
+
+}
