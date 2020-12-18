@@ -5,7 +5,7 @@
 }
 
 body {
-	background-color: #222;
+	background-color: #333;
 }
 
 .box{
@@ -13,7 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     transition: .40s linear;
-    background: #333;
+    background: #222;
     position: relative;
     top: 2%;
     border-radius: 15px;
@@ -35,7 +35,7 @@ body {
 .head-text h1{
 	transition: .20s linear;
 	color: white;
-	font-family: 'Hind Vadodara', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	text-shadow: 2px 2px #111;
 	cursor: default;
 }
@@ -70,7 +70,7 @@ input[type="password"] {
 	width: 340px;
 	outline: none;
 	font-size: 20px;
-	font-family: 'Hind Vadodara', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	border-radius: 40px;
 }
 
@@ -87,20 +87,23 @@ input[type="button"] {
 	border-radius: 50px;
 	border: 1px solid green;
 	background: none;
-	font-family: 'Hind Vadodara', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	color: white;
 	font-size: 16px;
-	text-shadow: 2px 1px black;
+	text-shadow: 1px 1px green;
 	cursor: pointer;
 	outline: none;
 }
 
 input[type="button"]:hover {
 	background-color: green;
+	font-size:  20px;
 }
 
 input[type="button"]:active{
 	background-color: darkgreen;
+	transition: .3s linear;
+	border: 1px solid darkgren;
 }
 
 .sm {
